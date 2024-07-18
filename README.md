@@ -70,5 +70,29 @@ More complex text, used for links and stuff
   print("<b>Wow!</b>") //<b>Wow!</b>
 </pre>
 
+## HTJS*
+HTJS is a script that turns from JavaScript into HTML
+```java
+HTJS.run{
+<h1>HTJS script</h1>
+}
+```
+It has a lot of variants:
+```java
+print(HTJS.htmltotext(
+<h2>What am i doing here?!?</h2>
+)) //What am i doing here?!?
+
+HTJS.functionHTJS <hn "size"=1-6> {
+<HTJS.headersize (size)>
+}
+```
+
+## Youtube
+Uses youtube search query to play on a window
+```java
+Youtube.play(search("Reaction Reaction"))
+```
+
 ## Comming soon....
-Some new scripts are comming soon, make sure to watch this project! (1/7)
+Some new scripts are comming soon, make sure to watch this project! (1.5/7)
