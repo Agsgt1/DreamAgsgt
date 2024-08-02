@@ -91,8 +91,28 @@ HTJS.functionHTJS <hn "size"=1-6> {
 ## Youtube
 Uses youtube search query to play on a window
 ```java
-Youtube.play(search("Reaction Reaction"))
+Youtube.play(Youtube.search("Reaction Reaction"))
+```
+### Youtube: Extras
+You can even use Youtube search query to search in your browser! Spoiler: it has another command comming up next!
+```java
+let searchYT = Youtube.search("@AngelThe4th")
+Browser.search(searchYT)
 ```
 
+## DreamlyBerd
+An giant extension with most of DreamBerd commmands!<br>
+Import:
+```java
+import ("DreamlyBerd")
+```
+Note: it has a premium version and you can buy it like this:
+```java
+DreamlyBerd.PremiumBuy()
+```
+it enables all of the DreamBerd commands!
+
+##
+
 ## Comming soon....
-Some new scripts are comming soon, make sure to watch this project! (1.5/7)
+Some new scripts are comming soon, make sure to watch this project! (2/7)
